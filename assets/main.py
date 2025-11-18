@@ -110,7 +110,7 @@ def play_game():
         attempts_left -= 1 #Subtract one attempt for each guess.
 
     #If loop ends, it means the player is out of tries.
-    print("\n You ran out of tries!")
+    print("\nYou ran out of tries!")
     print(f"The correct word was: {secret}")
 
 #A function to show how main menu options and let user modify settings.
